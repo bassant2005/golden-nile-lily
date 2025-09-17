@@ -1,0 +1,54 @@
+/* Navbar brand (logo + text) */
+.navbar-brand {
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--navy);
+}
+
+.navbar{
+  background-color: var(--white);
+  color: var(--navy);
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+/* Menu items */
+.navbar-nav .nav-item .nav-link{
+  margin: 0 12px;
+  font-size: 17px;
+  cursor: pointer;
+  color: var(--navy);
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: var(--pink);
+  border-bottom: 2px solid var(--pink);
+  transition: 0.2s;
+}
+
+/* Icons */
+.navbar-nav .nav-item i {
+  font-size: 18px;
+}
+
+/* Mobile toggle */
+.navbar-toggler {
+  border: none;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+/* pop up windows */
+.modal-content{
+  background-color: var(--white);
+  color: var(--pink);
+}
+
+
+
+
+

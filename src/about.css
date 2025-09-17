@@ -1,0 +1,108 @@
+/*ABOUT*/
+.about {
+  color: var(--navy);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 2rem;
+  background-color: var(--white);
+}
+.about h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid var(--pink);
+}
+.about h1 span {
+  color: var(--pink);
+}
+.about .row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.about .video video {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 15px;
+  display: block;
+}
+.about .video {
+  flex: 1;
+  text-align: center;
+  position: relative;
+  max-width: 500px;
+  margin: 20px;
+}
+.about .video h3 {
+  position: absolute;
+  bottom: 40%;             /* instead of 200px */
+  left: 50%;               /* center horizontally */
+  transform: translateX(-50%);
+  width: 101%;              /* scales with video width */
+  background: var(--white);
+  padding: 12px;
+  font-size: clamp(1rem, 2vw, 2rem); /* responsive font size */
+  font-weight: bold;
+  text-align: center;
+  mix-blend-mode: screen;
+}
+.about .about-text {
+  flex: 1;
+}
+.about .about-text h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+.about .about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.about .about-text .main-btn {
+  margin-top: 1rem;
+}
+
+/*ICONS*/
+.icons {
+  background-color: var(--gray);
+  padding: 60px 20px;
+  width: 101%;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+  overflow: hidden;
+}
+.icons .icon-card {
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 260px;
+  padding: 20px;
+  border-radius: 12px;
+  color: var(--navy);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.icons .icon-card i {
+  font-size: 40px;
+  color: var(--pink);
+  margin-bottom: 15px;
+}
+.icons .icon-card h5 {
+  margin-bottom: 8px;
+}
+.icons .icon-card p {
+  color: var(--gray);
+  font-size: 14px;
+}
+.icons .icon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px var(--navy);
+}

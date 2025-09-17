@@ -1,0 +1,71 @@
+:root {
+  --pink: #E45A92;
+  --white:#fff;
+  --navy: #3A3960;
+  --gray: #bdbdbd;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  border-bottom:2px solid var(--pink) ;
+  text-align: center;
+  color: var(--navy);
+}
+
+h1 span {
+  color: var(--pink);
+}
+
+.users h3{
+  color: var(--navy);
+}
+
+/* review */
+.review{
+    display: flex;
+}
+
+.review p{
+    color: var(--gray);
+}
+
+.review img{
+    width: 120px;
+    height: 120px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.review a{
+   color: var(--pink);
+   cursor: pointer;
+   font-size: 25px;
+   text-align: center;    
+   filter: drop-shadow(0 10px 5px var(--gray));
+}
+
+.review a:hover{
+   color: var(--gray);
+   cursor: pointer;
+   font-size: 25px;
+}
+
+label{
+    color: var(--navy);
+    font-weight: bolder;
+}
+
+.comment{
+   color: var(--pink);
+   cursor: pointer;
+   font-size: 25px;
+   text-align: center;    
+   filter: drop-shadow(0 10px 5px var(--gray));
+}
+
+.comment :hover{
+   color: var(--gray);
+   cursor: pointer;
+   font-size: 25px;
+}
