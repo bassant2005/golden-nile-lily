@@ -1,12 +1,33 @@
-# React + Vite
+# 🌸 Flowers Shop
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant Flowers Shop web application built with React.js, Bootstrap, and JavaScript.
+It allows users to browse flowers, add them to favorites 💖 or the cart 🛒, and stores data using localStorage so that it persists even after refreshing the page.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌼 Browse Flowers – Display products with images, names, and descriptions.
+
+💖 Favorites – Save favorite flowers to a list using localStorage.
+
+🛒 Shopping Cart – Add/remove flowers to the cart with persistent storage.
+
+📦 Local Storage Support – Favorites and cart items remain saved on reload.
+
+🎨 Responsive Design – Styled with Bootstrap for a modern and mobile-friendly layout.
+
+
+
+---
+
+🛠️ Tech Stack
+
+React.js – Frontend framework
+
+Bootstrap – Styling & responsive design
+
+JavaScript – Cart & favorites logic with localStorage
+
+CSS – Custom styling
